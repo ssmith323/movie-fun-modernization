@@ -1,6 +1,7 @@
 server.port: 8081
 
 spring:
+
   jpa:
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
 
@@ -21,3 +22,6 @@ s3:
   accessKey: <access key id>
   secretKey: <secret access key>
   bucketName: <name of the bucket>
+security:
+  basic:
+    enabled: false
